@@ -34,7 +34,7 @@ class Song
     end
     
     def self.genre_count
-      if @@gebre_count.start_with?("r") 
+      if @@genre_count.start_with?("r") 
         @@genre_count.collect do |genre, num|
       num + 1
         end
