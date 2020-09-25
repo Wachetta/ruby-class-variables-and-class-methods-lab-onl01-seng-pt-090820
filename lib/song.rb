@@ -29,9 +29,8 @@ class Song
     end
     
     def self.genre_count
-      genre_count = {}
-      
-      if @@genre_count.has_key?("rap")
+      genre_hash = {}
+      if @@genres[genre]
       
         end
        elsif @@genre_count.has_key("pop")
