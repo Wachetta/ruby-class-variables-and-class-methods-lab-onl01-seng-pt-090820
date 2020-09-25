@@ -34,9 +34,14 @@ class Song
     end
     
     def self.genre_count
-   @@genre_count
+      if @@genre_count.contains?("rap")
+   @@genre_count.collect do |a, b|
+     b + 1
+       if @@genre_count.contains?("pop")
+   @@genre_count.collect do |a, b|
+     b + 1
     end
-  
+  @@genre_count
      def self.artist_count
       @@artist_count
   
