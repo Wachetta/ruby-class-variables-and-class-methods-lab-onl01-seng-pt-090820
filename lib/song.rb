@@ -10,13 +10,13 @@ class Song
  
       def initialize(song_name, artist, genre)
        @name = song_name
-        @artist = artist
-          @genre = genre
-           @@count += 1
-            @@artists << @artist
-             @@genres << @genre
-               @@artist_count.store(@artist, 1)
-                   @@genre_count.store(@genre, 1)
+       @artist = artist
+       @genre = genre
+       @@count += 1
+       @@artists << @artist
+       @@genres << @genre
+       @@artist_count.store(@artist, 1)
+       @@genre_count.store(@genre, 1)
    
          #binding.pry
        end
