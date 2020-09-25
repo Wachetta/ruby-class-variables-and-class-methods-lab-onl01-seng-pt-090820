@@ -41,7 +41,7 @@ class Song
         @@genre_count.collect do |a, b|
          b + 1
         end
-            #binding.pry
+         @@genre_count   #binding.pry
           end
     end
  
