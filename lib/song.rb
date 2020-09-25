@@ -39,7 +39,7 @@ class Song
         b + 1
        if @@genre_count.has_key?("pop")
         @@genre_count.collect do |a, b|
-         puts a,  b + 1)
+         puts a, b + 1)
           end
       @@genre_count
       #binding.pry
