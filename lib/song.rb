@@ -42,7 +42,7 @@ class Song
          @@genre_count.store(a, b + 1)
           end
       @@genre_count
-      binding.pry
+      #binding.pry
           end
     end
  
