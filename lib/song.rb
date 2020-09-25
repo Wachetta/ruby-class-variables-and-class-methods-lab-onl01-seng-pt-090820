@@ -34,7 +34,7 @@ class Song
     end
     
     def self.genre_count
-      if @@genre_counth.has_key?("rap")
+      if @@genre_count.has_key?("rap")
    @@genre_count.collect do |a, b|
      b + 1
        if @@genre_count.contains?("pop")
