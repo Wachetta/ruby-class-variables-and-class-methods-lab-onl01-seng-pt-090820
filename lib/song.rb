@@ -37,6 +37,7 @@ class Song
       if @@genre_count.start_with?("r") 
         @@genre_count.collect do |genre, num|
       num + 1
+        end  
         end
     @@genre_count
      end
