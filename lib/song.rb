@@ -43,8 +43,7 @@ class Song
         end
          @@genre_count   #binding.pry
           end
-    end
- 
- end
- end
- end
+       end
+       end
+        end
+        end
