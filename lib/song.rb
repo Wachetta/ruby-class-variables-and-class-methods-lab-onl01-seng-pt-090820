@@ -34,7 +34,7 @@ class Song
     end
     
     def self.genre_count
-      genre_count.collect do |genre, num|
+      @@genre_count.collect do |genre, num|
       num + 1
         end
      end
