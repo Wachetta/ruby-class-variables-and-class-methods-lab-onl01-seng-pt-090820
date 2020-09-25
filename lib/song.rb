@@ -38,7 +38,7 @@ class Song
         @@genre_count.collect do |genre, num|
       num + 1
         end  
-        end
+    end
     @@genre_count
      end
   
