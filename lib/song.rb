@@ -34,13 +34,8 @@ class Song
     end
     
     def self.genre_count
-      if @@genre_count.start_with?("r") 
-        @@genre_count.collect do |genre, num|
-      num + 1
-        end  
+   @@genres_count
     end
-    @@genre_count
-     end
   
      def self.artist_count
       @@artist_count
