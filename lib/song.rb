@@ -15,8 +15,8 @@ class Song
            @@count += 1
             @@artists << @artist
              @@genres << @genre
-               @@artist_count.store(@artist, 0)
-                   @@genre_count.store(@genre, 0)
+               @@artist_count.store(@artist, 1)
+                   @@genre_count.store(@genre, 1)
    
          #binding.pry
        end
