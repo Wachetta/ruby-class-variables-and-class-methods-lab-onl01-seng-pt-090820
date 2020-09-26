@@ -48,6 +48,6 @@ class Song
             artist_hash[artist] = 1
             end
           end
-       genre_hash
+       artist_hash
     end 
 end
