@@ -30,13 +30,10 @@ class Song
     
     def self.genre_count
       genre_hash = {}
-      if @@genres[genre]
-      
-        end
-       elsif @@genre_count.has_key("pop")
-        @@genre_count.collect do |a, b|
-         b + 1
-         end
+       @@genres.each do |genre|
+         if genre_hash |genre|
+         else
+           genre_hash[genre] = 1
           end
        end
 end
